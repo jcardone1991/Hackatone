@@ -272,50 +272,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-	<script>
-	var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
-
-	var barChartData = {
-		labels : ["Tu Salario","Promedio", "Ing. Industrial"],
-		datasets : [
-			{
-				fillColor : "rgba(220,220,220,0.5)",
-				strokeColor : "rgba(220,220,220,0.8)",
-				highlightFill: "rgba(220,220,220,0.75)",
-				highlightStroke: "rgba(220,220,220,1)",
-				data : [12000,30000,80000]
-			}
-		]
-
-	}
-
-    var barChartDataMujer = {
-        labels : ["Tu Salario","Promedio", "Ing. Industiral"],
-        datasets : [
-            {
-                fillColor : "rgba(220,220,220,0.5)",
-                strokeColor : "rgba(220,220,220,0.8)",
-                highlightFill: "rgba(220,220,220,0.75)",
-                highlightStroke: "rgba(220,220,220,1)",
-                data : [12000,22000,80000]
-            }
-        ]
-
-    }
 	
-	window.onload = function(){
-		var ctx = document.getElementById("canvas").getContext("2d");
-		window.myBar = new Chart(ctx).Bar(barChartData, {
-			responsive : true
-		});
-		
-		var ctx = document.getElementById("canvas2").getContext("2d");
-		window.myBar = new Chart(ctx).Bar(barChartDataMujer, {
-			responsive : true
-		});
-	}
-
-	</script>
 
 
 
