@@ -60,34 +60,65 @@
                     <small>Faltan aca los filtros....</small>
                 </h1>
                 -->
-                
                 <div class="container col-lg-12" align="center" >
-                            <div class="form-group">
-                                <!--<label for="ejemplo_email_3" class="col-lg-3 control-label">Género</label>-->
-                                <div class="col-lg-3">
-                                    <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
-                                        <option value="1">Hombre</option>
-                                        <option value="2">Mujer</option>
-                                    </select>
+                    <div class="form-group">
+                        <fieldset name="userinfo">
+                            <div class="col-lg-3">
+                                <div class="row">
+                                    <label for="name">Género</label>    
                                 </div>
+                                
+                                <input type="radio" name="genero" value="Hombre">Hombre</input>
+                                <input type="radio" name="genero" value="Mujer">Mujer</input>
+                            </div>
 
-                                <div class="col-lg-3">
-                                    <!--<label for="ejemplo_email_3" class="col-lg-3 control-label">Tu salario en</label>-->
-                                    <input type="email" class="form-control" id="ejemplo_email_3" placeholder="Tu Salario en $">
-                                </div>
+                            <div class="col-lg-3">
+                                <label for="address" align="left">Salario en $</label>
+                                <input type="email" class="form-control" id="ejemplo_email_3" placeholder="Tu Salario en $">
+                            </div>
 
-                                <div class="col-lg-3">
-                                    <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
-                                        <option value="15.000">Ingeniero Industrial</option>
-                                    </select>
-                                </div>
+                            <div class="col-lg-3">
+                                <label for="address">Profesión</label>
+                                <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
+                                    <option value="15.000">Ingeniero Industrial</option>
+                                </select>
+                            </div>
+                            <div class="container col-lg-3">
+                                <br>    
+                                <button type="submit" class="btn btn-prymary">Comparar <span class="glyphicon glyphicon-ok"></span></button>    
+                            </div>
+                        </fieldset>
+                    </div>       
+                </div>
 
-                                <div class="container col-lg-3">
-                                    <button type="submit" class="btn btn-prymary">Comparar <span class="glyphicon glyphicon-ok"></span></button>
-                                </div>
-                            </div>       
+                <hr>
+                <br>
+<!--
+                <div class="container col-lg-12" align="center" >
+                    <div class="form-group">
+                        <div class="col-lg-3">
+                            <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
+                                <option value="1">Hombre</option>
+                                <option value="2">Mujer</option>
+                            </select>
                         </div>
 
+                        <div class="col-lg-3">
+                            <input type="email" class="form-control" id="ejemplo_email_3" placeholder="Tu Salario en $">
+                        </div>
+
+                        <div class="col-lg-3">
+                            <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
+                                <option value="15.000">Ingeniero Industrial</option>
+                            </select>
+                        </div>
+
+                        <div class="container col-lg-3">
+                            <button type="submit" class="btn btn-prymary">Comparar <span class="glyphicon glyphicon-ok"></span></button>
+                        </div>
+                    </div>       
+                </div>
+-->
 
 
             </div>
