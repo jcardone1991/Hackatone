@@ -12,6 +12,11 @@ body {
     margin-bottom: 25px;
 }
 
+.centrado{text-align:center;}
+
+
+.izq{text-align:left;}
+
 footer {
     margin: 50px 0;
 }
