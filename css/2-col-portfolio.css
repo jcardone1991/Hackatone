@@ -11,9 +11,8 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
-
 .centrado{text-align:center;}
-
+.centradow{margin: 0 auto;;}
 
 .izq{text-align:left;}
 
