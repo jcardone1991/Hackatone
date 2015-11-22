@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="usabilidad">
+    <meta name="author" content="Nicolas Fernandez Jorge Cardone">
 
     <title>Usabilidad - Hackatone 2015</title>
 
@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                
                 <a class="navbar-brand topnav" href="#">Usabilidad - Hackatone 2015</a>
             </div>
         </div>
@@ -51,7 +51,6 @@
     </nav>
 
         <!-- Header -->
-    <a name="about"></a>
     <div class="intro-header">
         <div class="container">
 
@@ -71,13 +70,13 @@
                         <div class="container col-lg-6 form-horizontal" role="form">
                             <div class="form-group">
 							<br>
-                                <label for="ejemplo_email_3" class="col-lg-3 control-label">Género</label>
+                                <label for="genero" class="col-lg-3 control-label">Género</label>
 								
                                 <div class="col-lg-9">
 								<div class="col-lg-6">
-								 <input type="radio" name="sexo" value="Hombre"> Hombre  </input>
+								 <input id='genero' name='gene' type="radio" name="sexo" title="Hombre" value="Hombre">Hombre
 								 </div>
-								  <input type="radio" name="sexo" value="Mujer"> Mujer   </input>
+								  <input id='genero2' name='genero4' type="radio" name="sexo" title="Mujer" value="Mujer"> Mujer
                                    <!-- <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
                                         <option value="1">Hombre</option>
                                         <option value="2">Mujer</option>
@@ -85,23 +84,23 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="ejemplo_email_3" class="col-lg-3 control-label">Tu salario en</label>
+                                <label for="salario" class="col-lg-3 control-label">Tu salario en</label>
                                 <div class="col-lg-9">
-                                    <input type="email" class="form-control" id="ejemplo_email_3" placeholder="$">
+                                    <input type="email" class="form-control" id="salario" placeholder="$">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="ejemplo_password_3" class="col-lg-3 control-label">Comparate con</label>
+                                <label for="ciudad" class="col-lg-3 control-label">Comparate con</label>
                                 <div class="col-lg-9">
-                                    <select name="ciudad" class="form-control" noresults="No hay resultados con" id="ciudad">
+                                    <select name="ciudad" class="form-control"  id="ciudad">
                                         <option value="15.000">Ingeniero Industrial</option>
                                     </select>
 
                                     <br>
                                     <br>
                                      
-                                        <button type="submit" class="btn btn-lg btn-block btn-prymary"><a href="resultado.html">Comparar <span class="glyphicon glyphicon-ok"></span></button>
-                                    </a>
+                                        <button type="submit" class="btn btn-lg btn-block btn-prymary"><a href="resultado.html">Comparar </a><span class="glyphicon glyphicon-ok"></span></button>
+                                    
                                 </div>
                             </div>
 
